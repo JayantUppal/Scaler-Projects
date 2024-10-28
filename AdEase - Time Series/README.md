@@ -4,6 +4,11 @@
 
 AdEase, an ads and marketing infrastructure company, aims to help businesses optimize ad placement by predicting page views on Wikipedia articles. Our goal is to leverage time series analysis to forecast the daily view count for 145,000 Wikipedia pages, enabling effective ad placement targeting specific regions and languages. This project covers 550 days of historical view data and incorporates significant events as exogenous variables for English pages.
 
+## Data Dictionary
+
+- SPECIFIC NAME _ LANGUAGE.wikipedia.org _ ACCESS TYPE _ ACCESS ORIGIN: Page name format includes the article's title, language, access type (e.g., desktop, mobile), and access origin (e.g., spider, browser).
+- Exogenous variable (campaigns): Indicates impactful campaign dates, specifically for English pages.
+
 ## Project Steps
 
 ### 1. Data Import and Preprocessing
